@@ -1,0 +1,143 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5c3ef;
+    color: #484848;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #474747;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Image */
+.cat-image img {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto 30px auto;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+.content p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Facts Section */
+#story ul {
+    list-style-type: disc;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+#story ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+form {
+    background-color: #fde9fe;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form div {
+    margin-top: 15px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #494949;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #494949;
+}
+
+/* Footer */
+footer {
+    background-color: #494949;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
